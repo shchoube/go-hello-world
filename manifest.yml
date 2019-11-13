@@ -1,0 +1,5 @@
+applications:
+- name: go-hello-world
+  disk_quota: 1G
+  instances: 1
+  memory: 64M
