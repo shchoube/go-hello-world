@@ -14,6 +14,10 @@ import (
 
 func main() {
 	listenString := ":8080"
+	port := os.Getenv("PORT")
+	if port != "" {
+		listenString = ":" + port
+	}
 
 	// Echo instance
 	e := echo.New()

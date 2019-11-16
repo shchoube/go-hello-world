@@ -3,3 +3,4 @@ applications:
   disk_quota: 1G
   instances: 1
   memory: 64M
+  buildpack: go_buildpack
