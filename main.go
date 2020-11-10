@@ -35,6 +35,7 @@ func main() {
 		listenString = ":" + port
 	}
 
+	// Start server
 	e.Logger.Fatal(e.Start(listenString))
 }
 
