@@ -7,8 +7,8 @@ as a [Docker](https://docs.cloudfoundry.org/devguide/deploy-apps/push-docker.htm
 | Endpoint | Description |
 |----------|-------------|
 | `GET /`      | Prints `"Hello! You've required: {path}"` |
-| `GET /dump'  | Dumps the HTTP request to the screen |
-| `GET /api/test/:host/:port | Tests connectivity to host:port |
+| `GET /dump`  | Dumps the HTTP request to the screen |
+| `GET /api/test/{host}/{port}` | Tests TCP connectivity to host:port |
 
 
 # license
